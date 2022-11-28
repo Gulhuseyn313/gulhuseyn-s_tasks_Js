@@ -1,3 +1,4 @@
+// A: done ✅
 function add(eded1,eded2,callback){
     let netice= eded1 + eded2
     callback(netice)
@@ -7,7 +8,7 @@ function add(eded1,eded2,callback){
 add(3, 5, console.log)
 add(3, 5, alert)
 
-
+// A: done ✅
 const FormalMeet = (cins, ad) => {
     if (cins === 'k'){
         console.log(`Hallo herr ${ad}`)
